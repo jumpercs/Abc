@@ -1,0 +1,16 @@
+body {
+  border: 20px;
+  background-color: honeydew;
+}
+
+ul {
+  border: 10px;
+}
+
+.bt-list {
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: .2rem;
+}
+

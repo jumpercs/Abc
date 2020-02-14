@@ -1,0 +1,14 @@
+<body>
+  <div class="card text-black bg-warning mb-3" *ngIf="user" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Voce deseja remover esse usuario?</h5>
+      <p class="card-text">
+        nome: {{ user.first_name }} <br />
+        Sobrenome: {{ user.last_name }} <br />
+        Id: {{ user.id }} <br />
+      </p>
+      <button (click)="delete()" class="btn btn-danger">Confimar?</button>
+      <button (click)="cancel()" class="btn btn-success">Cancelar.</button>
+    </div>
+  </div>
+</body>
